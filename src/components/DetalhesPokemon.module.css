@@ -1,13 +1,15 @@
 .content {
-    background-color: gray;
+    background-color: rgb(189, 188, 188);
     width: 28vw;
     padding: 10px;
     margin: auto 0;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    border: solid;
+    height: 73vh;
     /* display: none; */
 }
 
@@ -16,8 +18,11 @@ img {
 }
 
 .namePokemon {
-    margin: 6px 69px;
-    padding: 10px;
+    padding: 6px;
+    color: rgb(82, 80, 80);
+    text-shadow: 1px 1px rgb(72, 70, 70);
+    font-family: 'pokemon-font-solid';
+    letter-spacing: 3px;
 }
 
 .types {
@@ -27,21 +32,33 @@ img {
 }
 
 .typePokemon {
-    border: solid;
-    margin-right: 15px;
-    padding: 2px 14px;
+    border: solid 1.3px rgb(192, 12, 12);
+    margin-right: 7px;
+    padding: 2px 5px;
     border-radius: 6px;
+    margin-bottom: 10px;
+    /* font-family: 'pokemon-font-solid'; */
+    color: rgb(192, 12, 12);
+    letter-spacing: 2px;
 }
 
 .stats{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    width: 26vw;
+}
+
+.stats h5 {
+    font-family: 'pokemon-font-solid';
+    color: rgb(82, 80, 80);
+    text-shadow: 1px 1px gray;
 }
 
 .barrinha {
     width: 19vw;
     border: solid;
     margin-left: 1rem;
+    border-radius: 5px;
+    background-color: rgb(183, 186, 17);
 
 }
