@@ -1,15 +1,21 @@
 import styles from "./ListaPokemon.module.css";
 import {useState, useEffect} from 'react'
+// import { getAllPokemons } from "../pokeApi";
 
 function ListaPokemon() {
   const pokebola =
     "https://imagensemoldes.com.br/wp-content/uploads/2020/04/Pokebola-Pok%C3%A9mon-PNG-1024x1022.png";
   const [pokemons, setPokemons] = useState([]); 
+  const previousNext = '?offset=0&limit=10'
 
   useEffect(() => {
-    fetch("https://pokeapi.co/api/v2/pokemon/")
-    .then((response) => response.json())
-    .then((data) => setPokemons(data.results))
+     try {
+      fetch(`https://pokeapi.co/api/v2/pokemon/${previousNext}`)
+      .then((response) => response.json())
+      .then((data) => setPokemons(data.results))
+     } catch (error) {
+       console.log('seu erro:', error)  
+     }
   }, [])
 
 
