@@ -1,18 +1,20 @@
-const pokemons = async () => {
-    // let urlPokemons = `https://pokeapi.co/api/v2/pokemon`
 
-    fetch('https://pokeapi.co/api/v2/pokemon', {
-        method: GET,
-        headers: {"Content-type": "application/json"},
-        body: JSON.stringify
-    })
-    .then(response => console.log (response));
+// const pokemons = async () => {
+  console.log(fetch("https://pokeapi.co/api/v2/pokemon"))
+//   .then(response => response.json())
+//    return response.json()     
+    
 
-    // try{
+
+
+// try{
     //     //  const response = await fetch(urlPokemons)
     //     //  .then(response.json())
     // } catch(err) {
     //         console.log(err)
     //     }
-   
-}
+// }
+
+// console.log(pokemons)
+
+// export default pokemons
