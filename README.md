@@ -1,6 +1,6 @@
 <h1 style='display: flex;align-items: center;justify-content: center;'> Pokedex <img width=25px src='https://imagensemoldes.com.br/wp-content/uploads/2020/04/Pokebola-Pok%C3%A9mon-PNG-1024x1022.png'> - DesafioSomoS<h1/>
 
-<p style='display: flex; align-items: center;'>  Este projeto foi criado para o desafio do processo seletivo comandado pela empresa Iteris. O mesmo consistia em criar uma pokedex e na aplicação de algumas funcionalidades na pokedex <p/>
+<h3 style='display: flex; align-items: center;'>  Este projeto foi criado para o desafio do processo seletivo comandado pela empresa Iteris. O mesmo consistia em criar uma pokedex e na aplicação de algumas funcionalidades na pokedex <h3/>
 
 <img src='/public/Captura de Tela 2022-08-16 às 13.04.43.png'>
 
