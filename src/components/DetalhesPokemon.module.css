@@ -1,5 +1,5 @@
 .content {
-    background-color: rgb(189, 188, 188);
+    background-color: rgb(230, 226, 226);
     width: 28vw;
     padding: 10px;
     margin: auto 0;
@@ -10,7 +10,10 @@
     align-items: center;
     border: solid;
     height: 73vh;
-    /* display: none; */
+}
+
+.contentTwo {
+    display: block
 }
 
 img {

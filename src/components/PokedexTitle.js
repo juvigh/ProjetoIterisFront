@@ -1,6 +1,8 @@
+import styles from './PokedexTitle.module.css'
+
 function PokedexTitle() {
     return(
-        <div>
+        <div className={styles.title}>
             <h1> Pokedex </h1>
         </div>
 
