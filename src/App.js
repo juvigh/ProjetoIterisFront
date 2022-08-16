@@ -1,14 +1,14 @@
-import "./App.css";
-import DetalhesPokemon from "./components/DetalhesPokemon";
-import ListaPokemon from "./components/ListaPokemon";
-import PokedexTitle from "./components/PokedexTitle";
+
+import ListaPokemon from "./components/PokeList/ListaPokemon";
+import PokedexTitle from "./components/layout/PokedexTitle";
+
 
 function App() {
+
   return (
-    <div className="App">
+    <div>
       <PokedexTitle></PokedexTitle>
       <ListaPokemon></ListaPokemon>
-      <DetalhesPokemon></DetalhesPokemon>
     </div>
   );
 }
